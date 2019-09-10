@@ -1,0 +1,17 @@
+{
+  "name": "js-tdd-course",
+  "version": "1.0.0",
+  "description": "Lib para estudar TDD com javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "tdd",
+    "library",
+    "studing"
+  ],
+  "author": "Jonathan Santos <brjs.santos@gmail.com>",
+  "license": "MIT"
+}
