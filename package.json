@@ -4,6 +4,7 @@
   "description": "Lib para estudar TDD com javascript.",
   "main": "index.js",
   "scripts": {
+    "lint":  "npx eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
