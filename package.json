@@ -4,7 +4,7 @@
   "description": "Lib para estudar TDD com javascript.",
   "main": "index.js",
   "scripts": {
-    "lint":  "npx eslint src/*.js",
+    "lint": "npx eslint src/*.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -18,6 +18,12 @@
   "devDependencies": {
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint"
+    }
   }
 }
